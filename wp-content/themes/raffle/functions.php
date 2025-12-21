@@ -78,6 +78,29 @@ add_action('wp_enqueue_scripts', function () {
     );
 });
 
+/**
+ * Inline critical CSS as a fallback in case external loading is blocked.
+ */
+add_action('wp_enqueue_scripts', function () {
+    $site_css_path = get_theme_file_path('/assets/css/site.css');
+    if (file_exists($site_css_path)) {
+        $site_css = file_get_contents($site_css_path);
+        if ($site_css) {
+            wp_add_inline_style('yoyobam-site', $site_css);
+        }
+    }
+
+    if (is_front_page()) {
+        $home_css_path = get_theme_file_path('/assets/css/front-page.css');
+        if (file_exists($home_css_path)) {
+            $home_css = file_get_contents($home_css_path);
+            if ($home_css) {
+                wp_add_inline_style('yoyobam-home', $home_css);
+            }
+        }
+    }
+}, 20);
+
 add_filter('body_class', function ($classes) {
     $classes[] = 'nova-shell-p7q4';
     return $classes;
