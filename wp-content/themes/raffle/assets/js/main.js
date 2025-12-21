@@ -145,6 +145,16 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(updateCountdown, 1000);
   }
 
+  // Fallback nav toggle (works even if Bootstrap JS is blocked)
+  const navToggle = document.querySelector(".navbar-toggler");
+  const navMenu = document.getElementById("navMenu");
+  if (navToggle && navMenu) {
+    navToggle.addEventListener("click", (e) => {
+      e.preventDefault();
+      navMenu.classList.toggle("show");
+    });
+  }
+
   // Footer year
   document.querySelectorAll("[data-year]").forEach((el) => {
     el.textContent = new Date().getFullYear();
