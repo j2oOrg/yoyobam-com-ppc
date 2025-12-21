@@ -83,6 +83,7 @@ img{max-width:100%; display:block}
   top:0;
   z-index:60;
   padding:0.9rem 0;
+  box-shadow:0 12px 40px rgba(0,0,0,0.45);
 }
 .nav-rail-q5h8 .navbar-brand{
   display:flex;
@@ -93,23 +94,41 @@ img{max-width:100%; display:block}
 .brand-logo-u8b4{
   width:128px;
   height:auto;
-  border-radius:14px;
-  box-shadow:0 12px 28px rgba(0,0,0,0.45);
+  border-radius:16px;
+  box-shadow:0 16px 34px rgba(0,0,0,0.5);
+  border:1px solid rgba(255,255,255,0.08);
 }
 .nav-link-u4e7{
+  position:relative;
   color:var(--text);
-  font-weight:600;
-  margin:0 0.35rem;
-  padding:0.35rem 0.7rem;
-  border-radius:12px;
-  transition:background .15s ease,color .15s ease;
+  font-weight:700;
+  margin:0 0.25rem;
+  padding:0.55rem 0.9rem;
+  border-radius:14px;
+  overflow:hidden;
+  transition:color .16s ease, transform .16s ease;
+  background:linear-gradient(120deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border:1px solid rgba(255,255,255,0.08);
+  box-shadow:0 8px 18px rgba(0,0,0,0.3);
 }
+.nav-link-u4e7::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(120deg, rgba(93,244,255,0.22), rgba(255,159,77,0.18));
+  opacity:0;
+  transition:opacity .18s ease;
+  z-index:0;
+}
+.nav-link-u4e7 span{position:relative; z-index:1}
 .nav-link-u4e7.active,
 .nav-link-u4e7:hover{
-  background:var(--card-strong);
-  color:var(--accent);
+  color:var(--heading);
+  transform:translateY(-1px);
 }
-.navbar-toggler{border:1px solid var(--border); color:var(--text)}
+.nav-link-u4e7.active::after,
+.nav-link-u4e7:hover::after{opacity:1}
+.navbar-toggler{border:1px solid var(--border); color:var(--text); background:var(--card); border-radius:12px}
 .navbar-toggler:focus{box-shadow:0 0 0 3px rgba(93,244,255,0.25)}
 
 .btn-main-m2p9,

@@ -44,28 +44,28 @@
     <div class="collapse navbar-collapse justify-content-end" id="navMenu">
       <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center">
         <li class="nav-item">
-          <a class="nav-link-u4e7<?php echo $current === 'home' ? ' active' : ''; ?>" href="<?php echo esc_url( home_url('/#home') ); ?>">Home</a>
+          <a class="nav-link-u4e7<?php echo $current === 'home' ? ' active' : ''; ?>" href="<?php echo esc_url( home_url('/#home') ); ?>"><span>Home</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#impact') ); ?>">About</a>
+          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#impact') ); ?>"><span>About</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#how') ); ?>">How It Works</a>
+          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#how') ); ?>"><span>How It Works</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-u4e7<?php echo $current === 'prizes' ? ' active' : ''; ?>" href="<?php echo esc_url( $prizes_link ); ?>">Prizes</a>
+          <a class="nav-link-u4e7<?php echo $current === 'prizes' ? ' active' : ''; ?>" href="<?php echo esc_url( $prizes_link ); ?>"><span>Prizes</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-u4e7<?php echo $current === 'rules' ? ' active' : ''; ?>" href="<?php echo esc_url( $rules_link ); ?>">Rules</a>
+          <a class="nav-link-u4e7<?php echo $current === 'rules' ? ' active' : ''; ?>" href="<?php echo esc_url( $rules_link ); ?>"><span>Rules</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#winners') ); ?>">Winners</a>
+          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#winners') ); ?>"><span>Winners</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#contact') ); ?>">Contact</a>
+          <a class="nav-link-u4e7" href="<?php echo esc_url( home_url('/#contact') ); ?>"><span>Contact</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-u4e7<?php echo $current === 'faq' ? ' active' : ''; ?>" href="<?php echo esc_url( $faq_link ); ?>">FAQ</a>
+          <a class="nav-link-u4e7<?php echo $current === 'faq' ? ' active' : ''; ?>" href="<?php echo esc_url( $faq_link ); ?>"><span>FAQ</span></a>
         </li>
       </ul>
     </div>
