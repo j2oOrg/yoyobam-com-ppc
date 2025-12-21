@@ -17,15 +17,15 @@
       <p class="section-sub-p0c6" style="margin:0;">
         yoyobam Association Foundation<br>
         AGLC Raffle Licence #662961<br>
-        Issued by Alberta Gaming, Liquor &amp; Cannabis
+        Regulated by Alberta Gaming, Liquor &amp; Cannabis (AGLC)
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Draw Date: February 25, 2026<br>
-        Prize: 50% of ticket sales
+        Draw Date: March 15, 2026<br>
+        Prize: Licensed prize pool — winner receives 50% of ticket revenue
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
         Must be 18+ and physically located in Alberta to participate.<br>
-        All raffles conducted in accordance with AGLC regulations.
+        All raffles conducted in accordance with AGLC rules of play.
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
         Marketing services provided by DigiBox Ltd (authorized agent).

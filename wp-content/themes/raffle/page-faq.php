@@ -32,9 +32,9 @@ get_header();
       <div class="faq-hero">
         <p class="faq-eyebrow">Need answers?</p>
         <h1 class="faq-title">Frequently Asked Questions</h1>
-        <p class="faq-sub">Straightforward responses about the licensed yoyobam Association Foundation raffle.</p>
+        <p class="faq-sub">Straightforward responses about the yoyobam Association Foundation licensed 50/50 raffle.</p>
         <p class="faq-meta">Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961 • Draw: Mar 15, 2026 • 995 tickets at $10</p>
-        <p class="faq-note">yoyobam is the campaign/brand name only. All raffle operations are conducted by the yoyobam Association Foundation under AGLC oversight.</p>
+        <p class="faq-note">yoyobam is the campaign/brand name only. All raffle operations are performed by the Foundation under AGLC oversight.</p>
       </div>
 
       <div class="faq-grid" aria-labelledby="faq-list">
@@ -60,7 +60,7 @@ get_header();
 
         <article class="faq-card">
           <h3>What is the prize?</h3>
-          <p>One prize equal to 50% of total ticket sales (projected $3,780). The prize is not transferable and not redeemable for other consideration.</p>
+          <p>A licensed prize pool equal to 50% of total ticket revenue (projected $3,780). It is awarded to one verified winner and is not transferable.</p>
         </article>
 
         <article class="faq-card">
@@ -85,7 +85,7 @@ get_header();
 
         <article class="faq-card">
           <h3>Where do proceeds go?</h3>
-          <p>Proceeds support conservation-aligned initiatives inspired by the Pheasant Release Program and outdoor heritage efforts.</p>
+          <p>Proceeds support yoyobam Association Foundation programs—community outreach, education, and local initiatives under the Foundation’s mandate.</p>
         </article>
 
         <article class="faq-card">

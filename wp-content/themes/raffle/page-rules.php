@@ -33,9 +33,9 @@ get_header();
       <div class="rules-hero">
         <p class="rules-eyebrow">Official Rules</p>
         <h1 class="rules-title">Rules &amp; Regulations</h1>
-        <p class="rules-sub">The governing terms for the yoyobam Association Foundation licensed raffle. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
+        <p class="rules-sub">The governing terms for the yoyobam Association Foundation licensed 50/50 raffle. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
         <p class="rules-meta">Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 per ticket • Draw: Mar 15, 2026</p>
-        <p class="rules-note">yoyobam is the campaign/brand name only and not the operator. All raffle operations are conducted by the licensee under AGLC oversight.</p>
+        <p class="rules-note">yoyobam is the campaign/brand name only and not the operator. All raffle operations are conducted by the Foundation under AGLC oversight.</p>
       </div>
 
       <div class="rules-highlight">
@@ -62,7 +62,7 @@ get_header();
 
         <article class="rules-card">
           <h3>Prize</h3>
-          <p>One prize equal to 50% of total ticket sales for the licensed draw. No substitutions or transfers.</p>
+          <p>Licensed prize pool equal to 50% of total ticket revenue for this draw. No substitutions or transfers.</p>
         </article>
 
         <article class="rules-card">
