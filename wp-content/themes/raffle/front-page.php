@@ -8,126 +8,147 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 
 <main>
   <section class="hero" id="home">
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">Licensed charitable raffle</p>
+    <div class="container hero-structure">
+      <div class="hero-brief">
+        <p class="eyebrow">AGLC licensed charitable raffle</p>
         <h1 class="hero-title">yoyobam Association Foundation 50/50 Raffle</h1>
-        <div class="hero-prize-stack">
-          <span class="hero-prize">$3,780 Current Licensed Draw Amount</span>
-          <span class="hero-prize-sub">(50% of ticket sales to date, per AGLC Raffle Licence #662961)</span>
+        <p class="hero-lead">A compliant, 18+ draw operated under AGLC Raffle Licence #662961. The winner receives 50% of ticket sales for this licensed event.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn primary" data-signup-btn>Purchase tickets</a>
+          <a href="#oversight" class="btn ghost">View oversight &amp; rules</a>
         </div>
-        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662961. Issued by Alberta Gaming, Liquor &amp; Cannabis.</p>
-        <p class="hero-sub">Winner receives 50% of ticket sales for this licensed draw.</p>
-        <div class="countdown-card">
-          <p class="countdown-title">Draw date: February 25, 2026</p>
-          <div class="countdown" id="countdown">
-            <div class="slot"><span class="value" id="countdownDays">27</span><small>Days</small></div>
-            <div class="slot"><span class="value" id="countdownHours">00</span><small>Hours</small></div>
-            <div class="slot"><span class="value" id="countdownMinutes">00</span><small>Minutes</small></div>
-            <div class="slot"><span class="value" id="countdownSeconds">00</span><small>Seconds</small></div>
-          </div>
+        <div class="hero-flags">
+          <span class="flag"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
+          <span class="flag"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
+          <span class="flag"><i class="fa-solid fa-hand-holding-dollar"></i> Winner: 50% of sales</span>
         </div>
-        <div class="hero-cta">
-          <a href="#" class="btn primary" data-signup-btn>Join Now &amp; Start Winning</a>
-          <a href="#how" class="btn ghost">How it works</a>
-        </div>
-        <p class="hero-sub" style="font-size:0.95rem; margin-top:0.4rem;">Must be 18+ and physically located in Alberta at time of purchase.</p>
-        <div class="badges">
-          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
-          <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets total</span>
-          <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Feb 25, 2026</span>
-        </div>
-        <p class="hero-sub" style="margin-top:0.8rem;">Operator / Licensee: yoyobam Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only and is not the operator.</p>
+        <p class="hero-note">Operator / Licensee: yoyobam Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only and is not the operator. Must be 18+ and physically located in Alberta at time of purchase.</p>
       </div>
 
-      <div class="hero-visual">
-        <div class="halo"></div>
-        <img src="<?php echo esc_url( $hero_image ); ?>" alt="yoyobam Raffle hero">
-        <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Real cash prizes</span>
-      </div>
+      <aside class="draw-panel">
+        <div class="draw-panel__header">
+          <p class="panel-label">Current licensed draw</p>
+          <p class="draw-amount">$3,780 projected payout</p>
+          <p class="panel-sub">50% of ticket sales to date (AGLC Raffle Licence #662961)</p>
+        </div>
+        <div class="countdown-deck" id="countdown">
+          <div class="countdown-row">
+            <div class="countdown-label">Days remaining</div>
+            <div class="countdown-bar"><span id="countdownBarDays"></span></div>
+            <div class="countdown-value" id="countdownDays">00</div>
+          </div>
+          <div class="countdown-row">
+            <div class="countdown-label">Hours</div>
+            <div class="countdown-bar"><span id="countdownBarHours"></span></div>
+            <div class="countdown-value" id="countdownHours">00</div>
+          </div>
+          <div class="countdown-row">
+            <div class="countdown-label">Minutes</div>
+            <div class="countdown-bar"><span id="countdownBarMinutes"></span></div>
+            <div class="countdown-value" id="countdownMinutes">00</div>
+          </div>
+          <div class="countdown-row">
+            <div class="countdown-label">Seconds</div>
+            <div class="countdown-bar"><span id="countdownBarSeconds"></span></div>
+            <div class="countdown-value" id="countdownSeconds">00</div>
+          </div>
+        </div>
+        <p class="deadline-note">Draw scheduled: March 15, 2026 • 5:00 PM MT • Fort Edmonton Park, Edmonton</p>
+        <ul class="assurance-list">
+          <li>Ticket price: $10.00 per ticket • Total tickets available: 995</li>
+          <li>Winner receives 50% of total ticket sales for this licensed draw.</li>
+          <li>Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961.</li>
+        </ul>
+      </aside>
     </div>
   </section>
 
-  <section class="packages" id="packages">
+  <section class="packages draw-facts" id="packages">
     <div class="container">
       <div class="section-head">
-        <p class="section-eyebrow">Grand prize</p>
-        <h2 class="section-title">Limited tickets. One epic $3,780 prize.</h2>
-        <p class="section-sub">A vivid, licensed raffle experience —built to stand out and easy to enter.</p>
+        <p class="section-eyebrow">Key facts</p>
+        <h2 class="section-title">Serious raffle, posted limits</h2>
+        <p class="section-sub">Licensed, capped ticket inventory, and clearly stated prize mechanics.</p>
       </div>
 
-      <div class="grand-prize-wrap">
-        <article class="grand-card">
-          <div class="info-block" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:1rem; margin-bottom:1rem;">
-            <p class="section-sub" style="margin:0 0 0.35rem; text-transform:uppercase; letter-spacing:0.08em; font-size:0.9rem;">Ticket Details (As Licensed)</p>
-            <ul style="margin:0; padding-left:1.1rem; color:#dbe2ee; line-height:1.5;">
-              <li>Ticket price: $10.00 per ticket</li>
-              <li>Total tickets available: 995</li>
-              <li>Prize: 50% of total ticket sales</li>
-              <li>Draw date: February 25, 2026</li>
-              <li>Draw location: Fort Edmonton Park, Edmonton</li>
-            </ul>
-          </div>
-          <h3>Prize overview</h3>
-          <p class="value">$3,780 value</p>
-          <p class="sub">Only 995 tickets • $10 each • AGLC Raffle Licence #662961</p>
-          <p class="pitch">Think flagship gear, premium apparel, and field-ready accessories curated for a single lucky winner.</p>
-          <div class="cta-stack">
-            <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
-            <span class="pill accent"><i class="fa-solid fa-clock"></i> Draw: Feb 25, 2026</span>
-          </div>
+      <div class="fact-grid">
+        <article class="fact-card">
+          <p class="fact-label">Ticket price</p>
+          <p class="fact-value">$10.00</p>
+          <p class="fact-note">Single price for all entries.</p>
         </article>
+        <article class="fact-card">
+          <p class="fact-label">Ticket cap</p>
+          <p class="fact-value">995 total</p>
+          <p class="fact-note">Maximum odds: 1 in 995.</p>
+        </article>
+        <article class="fact-card">
+          <p class="fact-label">Prize</p>
+          <p class="fact-value">50% of sales</p>
+          <p class="fact-note">Paid out to one verified winner.</p>
+        </article>
+        <article class="fact-card">
+          <p class="fact-label">Draw</p>
+          <p class="fact-value">Mar 15, 2026</p>
+          <p class="fact-note">5:00 PM MT • Fort Edmonton Park.</p>
+        </article>
+      </div>
 
-        <div class="stat-grid">
-          <div class="stat-box">
-            <p class="label">Ticket pool</p>
-            <p class="num">995</p>
-            <p class="hint">Maximum odds: 1 in 995</p>
+      <div class="integrity-panel">
+        <div>
+          <p class="section-eyebrow">Oversight</p>
+          <h3>Licence-first operations</h3>
+          <p class="panel-text">AGLC Raffle Licence #662961 governs this draw. All advertising references the licence, ticket volume, and price exactly as approved.</p>
+          <div class="panel-pills">
+            <span class="pill accent"><i class="fa-solid fa-shield-halved"></i> Regulated</span>
+            <span class="pill"><i class="fa-solid fa-file-contract"></i> Posted odds</span>
+            <span class="pill"><i class="fa-solid fa-people-group"></i> One verified winner</span>
           </div>
-          <div class="stat-box">
-            <p class="label">Price per ticket</p>
-            <p class="num">$10</p>
-            <p class="hint">First-come, first-served</p>
-          </div>
-          <div class="stat-box">
-            <p class="label">Winner count</p>
-            <p class="num">1</p>
-            <p class="hint">One grand prize package</p>
-          </div>
-          <div class="stat-box">
-            <p class="label">Draw date</p>
-            <p class="num">Feb 25</p>
-            <p class="hint">2026 • Licensed &amp; posted</p>
-          </div>
+        </div>
+        <div class="integrity-actions">
+          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-clipboard-check"></i> Confirm your entry</a>
+          <a href="#oversight" class="btn ghost">Review rules &amp; obligations</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="packages" id="how">
+  <section class="packages process" id="how">
     <div class="container">
       <div class="section-head">
         <p class="section-eyebrow">How it works</p>
-        <h2 class="section-title">Simple raffle flow</h2>
-        <p class="section-sub">Purchase, wait for the draw, and support conservation.</p>
+        <h2 class="section-title">Clear, responsible flow</h2>
+        <p class="section-sub">We keep the steps straightforward and transparent.</p>
       </div>
 
-      <div class="package-grid">
-        <article class="package-card">
-          <div class="package-name">1. Purchase tickets</div>
-          <p class="package-note">Only 995 tickets available, $10 each.</p>
+      <div class="process-grid">
+        <article class="process-step">
+          <span class="step-number">01</span>
+          <div>
+            <p class="package-name">Purchase tickets</p>
+            <p class="package-note">995 tickets maximum, $10 each. Must be 18+ and in Alberta at purchase.</p>
+          </div>
         </article>
-        <article class="package-card">
-          <div class="package-name">2. Wait for draw</div>
-          <p class="package-note">Official draw on February 25, 2026.</p>
+        <article class="process-step">
+          <span class="step-number">02</span>
+          <div>
+            <p class="package-name">Licence-aligned draw</p>
+            <p class="package-note">Draw conducted on March 15, 2026 at Fort Edmonton Park, Edmonton.</p>
+          </div>
         </article>
-        <article class="package-card">
-          <div class="package-name">3. Win the prize</div>
-          <p class="package-note">One winner receives the $3,780 package.</p>
+        <article class="process-step">
+          <span class="step-number">03</span>
+          <div>
+            <p class="package-name">Verification &amp; payout</p>
+            <p class="package-note">One winner receives 50% of total ticket sales; identity is verified before payout.</p>
+          </div>
         </article>
-        <article class="package-card">
-          <div class="package-name">4. Support conservation</div>
-          <p class="package-note">Proceeds align with wildlife and outdoor heritage causes.</p>
+        <article class="process-step">
+          <span class="step-number">04</span>
+          <div>
+            <p class="package-name">Responsible follow-through</p>
+            <p class="package-note">We publish the winner, respect all AGLC rules, and support responsible participation.</p>
+          </div>
         </article>
       </div>
     </div>
@@ -165,7 +186,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Winners</p>
         <h2 class="section-title">Winners announced after the draw</h2>
-        <p class="section-sub">Check back after February 25, 2026 for the official winner announcement.</p>
+        <p class="section-sub">Check back after March 15, 2026 for the official winner announcement.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
@@ -175,7 +196,8 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
     </div>
   </section>
 
-  <section class="regulatory" id="responsible">
+  <section class="regulatory" id="oversight">
+    <div id="responsible" class="sr-only" aria-hidden="true"></div>
     <div class="container">
       <div class="section-head">
         <p class="section-eyebrow">Compliance</p>
@@ -187,7 +209,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Feb 25, 2026 • One $3,780 winner.</p>
+          <p>Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Mar 15, 2026 • One $3,780 winner.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">

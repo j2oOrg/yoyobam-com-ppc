@@ -113,8 +113,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const hoursEl = document.getElementById("countdownHours");
   const minutesEl = document.getElementById("countdownMinutes");
   const secondsEl = document.getElementById("countdownSeconds");
+  const barDays = document.getElementById("countdownBarDays");
+  const barHours = document.getElementById("countdownBarHours");
+  const barMinutes = document.getElementById("countdownBarMinutes");
+  const barSeconds = document.getElementById("countdownBarSeconds");
   if (daysEl && hoursEl && minutesEl && secondsEl) {
-    const target = new Date("February 25, 2026 00:00:00").getTime();
+    const target = new Date("March 15, 2026 17:00:00").getTime();
+    const initialDiff = Math.max(target - Date.now(), 0);
+    const totalDays = Math.max(Math.floor(initialDiff / (1000 * 60 * 60 * 24)), 1);
+    const clamp = (v) => Math.max(0, Math.min(100, v));
+
     const updateCountdown = () => {
       const now = Date.now();
       const diff = Math.max(target - now, 0);
@@ -122,10 +130,16 @@ document.addEventListener("DOMContentLoaded", () => {
       const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
       const minutes = Math.floor((diff / (1000 * 60)) % 60);
       const seconds = Math.floor((diff / 1000) % 60);
+
       daysEl.textContent = String(days).padStart(2, "0");
       hoursEl.textContent = String(hours).padStart(2, "0");
       minutesEl.textContent = String(minutes).padStart(2, "0");
       secondsEl.textContent = String(seconds).padStart(2, "0");
+
+      if (barDays) barDays.style.width = `${clamp((days / totalDays) * 100)}%`;
+      if (barHours) barHours.style.width = `${clamp((hours / 24) * 100)}%`;
+      if (barMinutes) barMinutes.style.width = `${clamp((minutes / 60) * 100)}%`;
+      if (barSeconds) barSeconds.style.width = `${clamp((seconds / 60) * 100)}%`;
     };
     updateCountdown();
     setInterval(updateCountdown, 1000);
