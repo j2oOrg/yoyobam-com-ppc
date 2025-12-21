@@ -3,7 +3,7 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="yoyobam — Licensed raffle with cash prizes, responsible play, and clear rules.">
+  <meta name="description" content="yoyobam Association Foundation 50/50 raffle — 995 tickets at $10 • draw March 15, 2026 • winner receives 50% of ticket sales. 18+ in Alberta.">
   <link rel="icon" href="<?php echo esc_url( home_url('/favicon.ico') ); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( home_url('/apple-touch-icon.png') ); ?>">
   <?php wp_head(); ?>
