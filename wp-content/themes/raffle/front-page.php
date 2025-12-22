@@ -1,18 +1,18 @@
-<?php
+﻿<?php
 /**
  * Front page template pulling the landing content from the static index.html.
  */
 get_header();
-$hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
+$hero_image = get_theme_file_uri('/assets/images/img_1.png');
 ?>
 
 <main>
   <section class="hero" id="home">
     <div class="container hero-structure">
       <div class="hero-brief">
-        <p class="eyebrow">AGLC-regulated 50/50</p>
-        <h1 class="hero-title">yoyobam Association Foundation 50/50 Raffle</h1>
-        <p class="hero-lead">Licensed 50/50 draw administered by the yoyobam Association Foundation under AGLC oversight. One winner receives 50% of ticket sales for this event.</p>
+        <p class="eyebrow">AGLC-regulated raffle</p>
+        <h1 class="hero-title">yoyobam Association Foundation Raffle</h1>
+        <p class="hero-lead">Licensed draw administered by the yoyobam Association Foundation under AGLC oversight. Prize: iPad Pro 11&quot; (M4) 256GB Wi-Fi in Space Black.</p>
         <div class="hero-actions">
           <a href="#" class="btn primary" data-signup-btn>Enter Licensed Draw</a>
           <a href="#oversight" class="btn ghost">Learn How It Works</a>
@@ -20,7 +20,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="hero-flags">
           <span class="flag"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
           <span class="flag"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
-          <span class="flag"><i class="fa-solid fa-hand-holding-dollar"></i> Winner: 50% of sales</span>
+          <span class="flag"><i class="fa-solid fa-hand-holding-dollar"></i> Prize: iPad Pro 11&quot; (M4) 256GB Wi-Fi</span>
         </div>
         <p class="hero-note">Operator / Licensee: yoyobam Association Foundation • Regulator: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only and not the operator. Must be 18+ and physically located in Alberta at time of purchase.</p>
       </div>
@@ -28,8 +28,8 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <aside class="draw-panel">
         <div class="draw-panel__header">
           <p class="panel-label">Licensed draw snapshot</p>
-          <p class="draw-amount">$3,780 projected prize pool</p>
-          <p class="panel-sub">Prize amount equals 50% of ticket revenue (AGLC Raffle Licence #662961)</p>
+          <p class="draw-amount">iPad Pro 11&quot; (M4)</p>
+          <p class="panel-sub">256GB Wi-Fi, Space Black (AGLC Raffle Licence #662961)</p>
         </div>
         <div class="countdown-deck" id="countdown">
           <div class="countdown-row">
@@ -53,11 +53,11 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
             <div class="countdown-value" id="countdownSeconds">00</div>
           </div>
         </div>
-        <p class="deadline-note">Draw scheduled: March 15, 2026 • 5:00 PM MT • Fort Edmonton Park, Edmonton</p>
+        <p class="deadline-note">Draw scheduled: March 15, 2026 Ã¢â‚¬Â¢ 5:00 PM MT Ã¢â‚¬Â¢ Fort Edmonton Park, Edmonton</p>
         <ul class="assurance-list">
-          <li>Ticket price: $10.00 per ticket • Total tickets available: 995</li>
-          <li>Winner receives 50% of total ticket sales for this licensed draw.</li>
-          <li>Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961.</li>
+          <li>Ticket price: $10.00 per ticket Ã¢â‚¬Â¢ Total tickets available: 995</li>
+          <li>Prize: iPad Pro 11\" (M4) 256GB Wi-Fi, Space Black.</li>
+          <li>Operator / Licensee: yoyobam Association Foundation Ã¢â‚¬Â¢ AGLC Raffle Licence #662961.</li>
         </ul>
       </aside>
     </div>
@@ -83,14 +83,14 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           <p class="fact-note">Maximum odds: 1 in 995.</p>
         </article>
         <article class="fact-card">
-          <p class="fact-label">Prize pool</p>
-          <p class="fact-value">50% of sales</p>
-          <p class="fact-note">Winner receives 50% of total ticket revenue.</p>
+          <p class="fact-label">Prize</p>
+          <p class="fact-value">iPad Pro 11\" (M4)</p>
+          <p class="fact-note">256GB Wi-Fi, Space Black.</p>
         </article>
         <article class="fact-card">
           <p class="fact-label">Draw</p>
           <p class="fact-value">Mar 15, 2026</p>
-          <p class="fact-note">5:00 PM MT • Fort Edmonton Park.</p>
+          <p class="fact-note">5:00 PM MT Ã¢â‚¬Â¢ Fort Edmonton Park.</p>
         </article>
       </div>
 
@@ -118,12 +118,12 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Your impact</p>
         <h2 class="section-title">Tickets that fuel the yoyobam Association Foundation</h2>
-        <p class="section-sub">Each purchase advances the Foundation’s community and education programs operated under its mandate.</p>
+        <p class="section-sub">Each purchase advances the FoundationÃ¢â‚¬â„¢s community and education programs operated under its mandate.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
           <p class="package-note">
-            Every ticket supports yoyobam Association Foundation-led initiatives—community outreach, education, and local programming aligned to the Foundation’s charter.
+            Every ticket supports yoyobam Association Foundation-led initiativesÃ¢â‚¬â€community outreach, education, and local programming aligned to the FoundationÃ¢â‚¬â„¢s charter.
           </p>
           <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Ask about the mission</a>
         </article>
@@ -167,7 +167,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           <span class="step-number">03</span>
           <div>
             <p class="package-name">Verification &amp; payout</p>
-            <p class="package-note">One winner receives 50% of total ticket sales; identity is verified before payout.</p>
+            <p class="package-note">One verified winner receives the iPad Pro prize; identity is confirmed before delivery.</p>
           </div>
         </article>
         <article class="process-step">
@@ -190,7 +190,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       </div>
       <div class="package-grid">
         <article class="package-card">
-          <p class="package-note">We’ll post the verified winner and prize claim details here once the draw is completed.</p>
+          <p class="package-note">WeÃ¢â‚¬â„¢ll post the verified winner and prize claim details here once the draw is completed.</p>
         </article>
       </div>
     </div>
@@ -202,26 +202,26 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Compliance</p>
         <h2 class="section-title">Licensed &amp; regulated</h2>
-        <p class="section-sub">Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only.</p>
+        <p class="section-sub">Operator / Licensee: yoyobam Association Foundation Ã¢â‚¬Â¢ AGLC Raffle Licence #662961 Ã¢â‚¬Â¢ Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only.</p>
       </div>
 
       <div class="rg-grid">
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Mar 15, 2026 • One $3,780 winner.</p>
+          <p>Operator / Licensee: yoyobam Association Foundation ΓÇó AGLC Raffle Licence #662961 ΓÇó 995 tickets ΓÇó $10 each ΓÇó Draw: Mar 15, 2026 ΓÇó Prize: iPad Pro 11" (M4) 256GB Wi-Fi, Space Black.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-id-badge"></i></div>
           <h3>Licensing &amp; participation rules</h3>
-          <p>18+ and physically in Alberta at purchase. Entries are capped at 995 tickets per the licence; one verified winner receives 50% of ticket revenue.</p>
+          <p>18+ and physically in Alberta at purchase. Entries are capped at 995 tickets per the licence; one verified winner receives the iPad Pro prize.</p>
           <a class="rg-cta" href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Participation support resources</a>
         </div>
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-hands-holding-child"></i></div>
           <h3>Support resources</h3>
-          <p>Alberta Health Services Helpline: <a href="tel:18663322322" class="link-accent">1-866-332-2322</a> • Assistance available for participation concerns.</p>
+          <p>Alberta Health Services Helpline: <a href="tel:18663322322" class="link-accent">1-866-332-2322</a> Ã¢â‚¬Â¢ Assistance available for participation concerns.</p>
           <ul class="res-links">
             <li><a href="https://gamesenseab.ca/" target="_blank" rel="noopener noreferrer">GameSense Alberta</a></li>
             <li><a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer">BeGambleAware</a></li>
@@ -236,15 +236,15 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
     <div class="container">
       <div class="section-head">
         <p class="section-eyebrow">Contact</p>
-        <h2 class="section-title">We’re here to help</h2>
+        <h2 class="section-title">WeÃ¢â‚¬â„¢re here to help</h2>
         <p class="section-sub">Questions about tickets, rules, or responsible gaming? Reach out anytime.</p>
       </div>
       <div class="contact-grid">
         <div class="contact-card">
           <h3>Message us</h3>
           <p>Email: <a href="mailto:support@yoyobam.com">support@yoyobam.com</a></p>
-          <p>Hours: Mon–Fri, 9:00 AM – 5:00 PM (MT)</p>
-          <p>Response time: within 1–2 business days</p>
+          <p>Hours: MonÃ¢â‚¬â€œFri, 9:00 AM Ã¢â‚¬â€œ 5:00 PM (MT)</p>
+          <p>Response time: within 1Ã¢â‚¬â€œ2 business days</p>
         </div>
         <div class="contact-form-card">
           <h3>Need assistance?</h3>
@@ -267,7 +267,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
   <div class="modal-card">
     <button class="modal-close" type="button" data-modal-close aria-label="Close form"><i class="fa-solid fa-xmark"></i></button>
     <h3>Ticket Purchase Inquiry</h3>
-    <p>Send us a message about buying raffle tickets. We’ll respond with next steps.</p>
+    <p>Send us a message about buying raffle tickets. WeÃ¢â‚¬â„¢ll respond with next steps.</p>
     <form id="signupForm" class="modal-form">
       <input type="text" id="signupName" placeholder="Full name" required>
       <input type="email" id="signupEmail" placeholder="Email address" required>
@@ -288,3 +288,11 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 </div>
 
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+
