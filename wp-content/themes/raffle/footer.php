@@ -21,7 +21,7 @@
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
         Draw Date: March 15, 2026<br>
-        Prize: Licensed prize pool — winner receives 50% of ticket revenue
+        Prize: iPad Pro 11" (M4) 256GB Wi-Fi, Space Black
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
         Must be 18+ and physically located in Alberta to participate.<br>

@@ -14,8 +14,8 @@ get_header();
         <p class="section-sub-p0c6" style="margin:0 0 0.5rem;">Key notes:</p>
         <ul>
           <li>Ticket price: $10.00 • 995 tickets total.</li>
-          <li>Prize: Licensed prize pool — winner receives 50% of ticket revenue.</li>
-          <li>Draw date: February 25, 2026 — Fort Edmonton Park, Edmonton.</li>
+          <li>Prize: iPad Pro 11" (M4) 256GB Wi-Fi, Space Black.</li>
+          <li>Draw date: March 15, 2026 — Fort Edmonton Park, Edmonton.</li>
           <li>Participation limited to 18+ physically located in Alberta.</li>
         </ul>
         <p class="section-sub-p0c6" style="margin:0.6rem 0 0;">For questions, visit the <a href="<?php echo esc_url( home_url('/faq') ); ?>">FAQ</a> or <a href="<?php echo esc_url( home_url('/#contact') ); ?>">contact</a> sections.</p>

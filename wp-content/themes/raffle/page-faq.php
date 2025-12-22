@@ -60,7 +60,7 @@ get_header();
 
         <article class="faq-card">
           <h3>What is the prize?</h3>
-          <p>A licensed prize pool equal to 50% of total ticket revenue (projected $3,780). It is awarded to one verified winner and is not transferable.</p>
+          <p>One verified winner receives an iPad Pro 11" (M4) 256GB Wi-Fi in Space Black, awarded under AGLC Raffle Licence #662961.</p>
         </article>
 
         <article class="faq-card">

@@ -62,7 +62,7 @@ get_header();
 
         <article class="rules-card">
           <h3>Prize</h3>
-          <p>Licensed prize pool equal to 50% of total ticket revenue for this draw. No substitutions or transfers.</p>
+          <p>One prize: iPad Pro 11" (M4) 256GB Wi-Fi in Space Black. No substitutions or transfers.</p>
         </article>
 
         <article class="rules-card">
