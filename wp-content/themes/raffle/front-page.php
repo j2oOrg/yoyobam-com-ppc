@@ -23,6 +23,11 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
           <span class="flag"><i class="fa-solid fa-hand-holding-dollar"></i> Prize: iPad Pro 11&quot; (M4) 256GB Wi-Fi</span>
         </div>
         <p class="hero-note">Operator / Licensee: YoYoBam Association Foundation • Regulator: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only and not the operator. Must be 18+ and physically located in Alberta at time of purchase.</p>
+        <div class="hero-visual">
+          <div class="halo"></div>
+          <img src="<?php echo esc_url( $hero_image ); ?>" alt="iPad Pro 11-inch (M4) prize device">
+          <span class="hero-label"><i class="fa-solid fa-gift"></i> iPad Pro 11&quot; prize</span>
+        </div>
       </div>
 
       <aside class="draw-panel">
