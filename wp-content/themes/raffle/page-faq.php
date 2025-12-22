@@ -32,8 +32,8 @@ get_header();
       <div class="faq-hero">
         <p class="faq-eyebrow">Need answers?</p>
         <h1 class="faq-title">Frequently Asked Questions</h1>
-        <p class="faq-sub">Straightforward responses about the yoyobam Association Foundation licensed 50/50 raffle.</p>
-        <p class="faq-meta">Operator / Licensee: yoyobam Association Foundation • AGLC Raffle Licence #662961 • Draw: Mar 15, 2026 • 995 tickets at $10</p>
+        <p class="faq-sub">Straightforward responses about the YoYoBam Association Foundation licensed 50/50 raffle.</p>
+        <p class="faq-meta">Operator / Licensee: YoYoBam Association Foundation • AGLC Raffle Licence #662961 • Draw: Mar 15, 2026 • 995 tickets at $10</p>
         <p class="faq-note">yoyobam is the campaign/brand name only. All raffle operations are performed by the Foundation under AGLC oversight.</p>
       </div>
 
@@ -85,12 +85,12 @@ get_header();
 
         <article class="faq-card">
           <h3>Where do proceeds go?</h3>
-          <p>Proceeds support yoyobam Association Foundation programs—community outreach, education, and local initiatives under the Foundation’s mandate.</p>
+          <p>Proceeds support YoYoBam Association Foundation programs—community outreach, education, and local initiatives under the Foundation’s mandate.</p>
         </article>
 
         <article class="faq-card">
           <h3>Who operates this raffle?</h3>
-          <p>Operator / Licensee: yoyobam Association Foundation. yoyobam is the campaign/brand name only and not the operator.</p>
+          <p>Operator / Licensee: YoYoBam Association Foundation. yoyobam is the campaign/brand name only and not the operator.</p>
         </article>
 
         <article class="faq-card">

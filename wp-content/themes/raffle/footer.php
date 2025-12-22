@@ -15,7 +15,7 @@
 
     <div class="footer-note-w0e3" style="text-align:center;">
       <p class="section-sub-p0c6" style="margin:0;">
-        yoyobam Association Foundation<br>
+        YoYoBam Association Foundation<br>
         AGLC Raffle Licence #662961<br>
         Regulated by Alberta Gaming, Liquor &amp; Cannabis (AGLC)
       </p>

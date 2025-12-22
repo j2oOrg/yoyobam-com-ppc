@@ -11,8 +11,8 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
     <div class="container hero-structure">
       <div class="hero-brief">
         <p class="eyebrow">AGLC-regulated raffle</p>
-        <h1 class="hero-title">yoyobam Association Foundation Raffle</h1>
-        <p class="hero-lead">Licensed draw administered by the yoyobam Association Foundation under AGLC oversight. Prize: iPad Pro 11&quot; (M4) 256GB Wi-Fi in Space Black.</p>
+        <h1 class="hero-title">YoYoBam Association Foundation Raffle</h1>
+        <p class="hero-lead">Licensed draw administered by the YoYoBam Association Foundation under AGLC oversight. Prize: iPad Pro 11&quot; (M4) 256GB Wi-Fi in Space Black.</p>
         <div class="hero-actions">
           <a href="#" class="btn primary" data-signup-btn>Enter Licensed Draw</a>
           <a href="#oversight" class="btn ghost">Learn How It Works</a>
@@ -22,7 +22,7 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
           <span class="flag"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
           <span class="flag"><i class="fa-solid fa-hand-holding-dollar"></i> Prize: iPad Pro 11&quot; (M4) 256GB Wi-Fi</span>
         </div>
-        <p class="hero-note">Operator / Licensee: yoyobam Association Foundation • Regulator: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only and not the operator. Must be 18+ and physically located in Alberta at time of purchase.</p>
+        <p class="hero-note">Operator / Licensee: YoYoBam Association Foundation • Regulator: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only and not the operator. Must be 18+ and physically located in Alberta at time of purchase.</p>
       </div>
 
       <aside class="draw-panel">
@@ -57,7 +57,7 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
         <ul class="assurance-list">
           <li>Ticket price: $10.00 per ticket Ã¢â‚¬Â¢ Total tickets available: 995</li>
           <li>Prize: iPad Pro 11\" (M4) 256GB Wi-Fi, Space Black.</li>
-          <li>Operator / Licensee: yoyobam Association Foundation Ã¢â‚¬Â¢ AGLC Raffle Licence #662961.</li>
+          <li>Operator / Licensee: YoYoBam Association Foundation Ã¢â‚¬Â¢ AGLC Raffle Licence #662961.</li>
         </ul>
       </aside>
     </div>
@@ -68,7 +68,7 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
       <div class="section-head">
         <p class="section-eyebrow">Key facts</p>
         <h2 class="section-title">About this licensed draw</h2>
-        <p class="section-sub">Transparent, licence-cited details from the yoyobam Association Foundation.</p>
+        <p class="section-sub">Transparent, licence-cited details from the YoYoBam Association Foundation.</p>
       </div>
 
       <div class="fact-grid">
@@ -117,20 +117,20 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
     <div class="container">
       <div class="section-head">
         <p class="section-eyebrow">Your impact</p>
-        <h2 class="section-title">Tickets that fuel the yoyobam Association Foundation</h2>
+        <h2 class="section-title">Tickets that fuel the YoYoBam Association Foundation</h2>
         <p class="section-sub">Each purchase advances the FoundationÃ¢â‚¬â„¢s community and education programs operated under its mandate.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
           <p class="package-note">
-            Every ticket supports yoyobam Association Foundation-led initiativesÃ¢â‚¬â€community outreach, education, and local programming aligned to the FoundationÃ¢â‚¬â„¢s charter.
+            Every ticket supports YoYoBam Association Foundation-led initiativesÃ¢â‚¬â€community outreach, education, and local programming aligned to the FoundationÃ¢â‚¬â„¢s charter.
           </p>
           <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Ask about the mission</a>
         </article>
         <article class="package-card" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12);">
           <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
           <p class="section-sub" style="margin:0;">Operated by:<br>
-          yoyobam Association Foundation<br>
+          YoYoBam Association Foundation<br>
           9111-39 Avenue, Edmonton, AB T6E5Y2<br>
           Licensed charitable organization in Alberta</p>
           <p class="section-sub" style="margin:0.6rem 0 0;">Advertising and marketing services provided by:<br>
@@ -202,14 +202,14 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
       <div class="section-head">
         <p class="section-eyebrow">Compliance</p>
         <h2 class="section-title">Licensed &amp; regulated</h2>
-        <p class="section-sub">Operator / Licensee: yoyobam Association Foundation Ã¢â‚¬Â¢ AGLC Raffle Licence #662961 Ã¢â‚¬Â¢ Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only.</p>
+        <p class="section-sub">Operator / Licensee: YoYoBam Association Foundation Ã¢â‚¬Â¢ AGLC Raffle Licence #662961 Ã¢â‚¬Â¢ Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). yoyobam is the campaign/brand name only.</p>
       </div>
 
       <div class="rg-grid">
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: yoyobam Association Foundation ΓÇó AGLC Raffle Licence #662961 ΓÇó 995 tickets ΓÇó $10 each ΓÇó Draw: Mar 15, 2026 ΓÇó Prize: iPad Pro 11" (M4) 256GB Wi-Fi, Space Black.</p>
+          <p>Operator / Licensee: YoYoBam Association Foundation GÇó AGLC Raffle Licence #662961 GÇó 995 tickets GÇó $10 each GÇó Draw: Mar 15, 2026 GÇó Prize: iPad Pro 11" (M4) 256GB Wi-Fi, Space Black.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">
@@ -288,6 +288,10 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
 </div>
 
 <?php get_footer(); ?>
+
+
+
+
 
 
 

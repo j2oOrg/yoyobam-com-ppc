@@ -8,7 +8,7 @@
 
     <div class="footer-note-w0e3" style="text-align:center;">
       <p class="section-sub-p0c6" style="margin:0;">
-        © 2025 yoyobam Association. All rights reserved. | Licence #465790<br>
+        © 2025 YoYoBam Association. All rights reserved. | Licence #465790<br>
         Please play responsibly. Must be 18+ to participate.
       </p>
     </div>
