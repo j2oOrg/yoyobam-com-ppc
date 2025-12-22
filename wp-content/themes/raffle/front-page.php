@@ -296,3 +296,4 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
 
 
 
+
