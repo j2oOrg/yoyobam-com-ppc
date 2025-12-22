@@ -3,7 +3,7 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="YoYoBam Association Foundation licensed raffle - 995 tickets at $10 • draw March 15, 2026 • prize: iPad Pro 11\" (M4) 256GB Wi-Fi, Space Black. 18+ in Alberta.">
+  <meta name="description" content="YoYoBam Association Foundation licensed raffle - 995 tickets at $10 • draw March 15, 2026 • prize: iPad Pro 11" (M4) 256GB Wi-Fi, Space Black. 18+ in Alberta.">
   <link rel="icon" href="<?php echo esc_url( home_url('/favicon.ico') ); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( home_url('/apple-touch-icon.png') ); ?>">
   <?php wp_head(); ?>

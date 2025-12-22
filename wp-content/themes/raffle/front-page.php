@@ -56,7 +56,7 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
         <p class="deadline-note">Draw scheduled: March 15, 2026 at 5:00 PM MT at Fort Edmonton Park, Edmonton</p>
         <ul class="assurance-list">
           <li>Ticket price: $10.00 per ticket - Total tickets available: 995</li>
-          <li>Prize: iPad Pro 11\" (M4) 256GB Wi-Fi, Space Black.</li>
+          <li>Prize: iPad Pro 11" (M4) 256GB Wi-Fi, Space Black.</li>
           <li>Operator / Licensee: YoYoBam Association Foundation - AGLC Raffle Licence #662961.</li>
         </ul>
       </aside>
@@ -84,7 +84,7 @@ $hero_image = get_theme_file_uri('/assets/images/img_1.png');
         </article>
         <article class="fact-card">
           <p class="fact-label">Prize</p>
-          <p class="fact-value">iPad Pro 11\" (M4)</p>
+          <p class="fact-value">iPad Pro 11" (M4)</p>
           <p class="fact-note">256GB Wi-Fi, Space Black.</p>
         </article>
         <article class="fact-card">
